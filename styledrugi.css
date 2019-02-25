@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.photo {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 500px) {
+  .photo {
+    padding-right: 20px;
+    float: left;
+    width: 50%;
+  }
+}
+
+.nav {
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.boxes div {
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+  }
+}
+
+.box1 {
+  flex: 1;
+  height: 100px;
+  background: red;
+}
+
+.box2 {
+  flex: 2;
+  height: 200px;
+  background: green;
+}
+
+.box4 {
+  flex: 1;
+  height: 100px;
+  background: yellow;
+}

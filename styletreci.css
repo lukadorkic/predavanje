@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+
+.class {
+  color: blue;
+}
+
+#id {
+  color: green;
+}
+
+.div > h1 {
+  color: yellow;
+}
+
+.div h1 + h1 {
+  color: aqua;
+}
+
+.div > h1:first-child {
+  color: blueviolet;
+}
+
+#h2 {
+  color: green;
+}
+
+
+.h2-wrapper .h2 {
+  color:red;
+}
+
+.h2 {
+  color:blue;
+}
+
+h2 {
+  color: yellow
+}
+
